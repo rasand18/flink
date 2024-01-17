@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "transaction",
+  "namespace": "dto",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": "string"
+    },
+    {
+      "name": "productId",
+      "type": "string"
+    },
+    {
+      "name": "productName",
+      "type": "string"
+    },
+    {
+      "name": "transactionDate",
+      "type": "string"
+    }
+  ]
+}
